@@ -1,5 +1,5 @@
 import React from 'react'
-import {About} from '../pages/styles'
+import {About} from '../styles'
 import styled from 'styled-components'
 
 const FaQSection = () =>{

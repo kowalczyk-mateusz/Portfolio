@@ -1,7 +1,8 @@
 import React from 'react'
 import home1 from '../img/home1.png'
+import {motion} from 'framer-motion'
 
-import { About, Description, Hide, Image} from '../pages/styles'
+import { About, Description, Hide, Image} from '../styles'
 const AboutSection = () =>{
     return(
         <About>
