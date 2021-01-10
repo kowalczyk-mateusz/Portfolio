@@ -9,7 +9,7 @@ const AboutSection = () =>{
     return(
         <About>
             <Description>
-                <div className="title">
+                <motion.div>
                     <Hide>
                         <motion.h2 variants={titleAnimation}>We work to make</motion.h2>
                     </Hide>
@@ -19,7 +19,7 @@ const AboutSection = () =>{
                     <Hide>
                         <motion.h2 variants={titleAnimation}>true.</motion.h2>
                     </Hide>
-                </div>
+                </motion.div>
                 <motion.p variants={fade}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     Accusantium fugit vitae velit natus.
                      </motion.p>

@@ -7,14 +7,13 @@ export const pageAnimation = {
         opacity: 1,
         x: 0,
         transition: {
-            duration: 1,
+            duration: 0.5,
             when: 'beforeChildren',
             staggerChildren: 0.25,
         },
     },
     exit: {
             opacity: 0,
-            x: 300,
             transition: {
                 duration: 0.5,
             }
@@ -77,11 +76,11 @@ export const lineAnimation = {
 
 export const Slider = {
     hidden: {
-        y: '-130%',
+        x: '-130%',
         skew: '45deg',
     },
     show: {
-        y: '100%',
+        x: '100%',
         skew: '0deg',
         transition: {
             duration: 1,
