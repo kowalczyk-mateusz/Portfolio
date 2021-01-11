@@ -103,7 +103,7 @@ export const Slider = {
 
 export const sliderContainer ={
     hidden: {
-        opacity: 1,
+        opacity: 0,
     },
     show: {
         opacity: 1,
